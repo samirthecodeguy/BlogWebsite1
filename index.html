@@ -4,11 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>News Flash | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+
+    <!-- Remix Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="index.html">
+                <h2 class="logo">NewsFlash</h2>
+            </a>
+            <div class="menu" id="menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="" class="nav-link current">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item screen-lg-hidden">
+                        <a href="" class="nav-link">Sign in</a>
+                    </li>
+                    <li class="nav-item screen-lg-hidden">
+                        <a href="" class="nav-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
 
+            <div class="list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-btn">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon " id="menu-toggle-btn">
+                    <i class="ri-menu-3-line open-menu"></i>
+                    <i class="ri-close-line close-menu"></i>
+                </button>
+
+                <a href="#" class="nav-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="nav-link screen-sm-hidden btn sign-up-btn fancy-border">
+                    <span>Sign up </span>
+                </a>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Swiper.js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
